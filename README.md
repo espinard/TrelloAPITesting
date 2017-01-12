@@ -25,7 +25,17 @@ You should pick a list (from any board) and provide its ID in the command below,
 NOTE:  The tests don't clean up created cards in the list you will provide. You will have the manually
 delete created cards by logging into Trello, with the associated account.
 
+The Commands :
 
-THE COMMAND:
+To Run the JUnit Test Suite: 
+```
+$mvn test -Dtest=TrelloTestingSuite -Dtrello.key=[YOUR_APPLICATION_KEY] -Dtrello.token=[YOUR_SERVER_TOKEN] -Dtrello.list.id=[ID_TRELLO_LIST]
+```
 
+To Run tests individually: 
+```
 $mvn test -Dtrello.key=[YOUR_APPLICATION_KEY] -Dtrello.token=[YOUR_SERVER_TOKEN] -Dtrello.list.id=[ID_TRELLO_LIST]
+```
+
+
+
