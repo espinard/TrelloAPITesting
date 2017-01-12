@@ -15,7 +15,7 @@ The goal is to test some of the features of Trello, such as :
 - Deleting cards from board
 - Updating an existing card
 
-The tests assume there is exists at a least a list, thus, a board that holds such list.
+The tests assume there exits at a least one trello list, thus, a board that holds such list.
 You should pick a list (from any board) and provide its ID in the command below, in order for the tests to work.
 
 3 System properties have been  defined so you don't have to touch the code:
