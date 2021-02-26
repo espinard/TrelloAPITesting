@@ -1,6 +1,8 @@
 # TrelloAPITesting
 Trello API Testing using Retrofit
 
+This project was created as a requirement to a technical interview in order to join H8tch Innovations (https://www.h8tch.com/), a subcontractor of Epic Games.
+
 Technology stacks:
 - JUnit 4,
 - Maven 3.3.9
